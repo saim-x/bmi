@@ -1,0 +1,105 @@
+/* Reset some default styles for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #008299;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 1.5vh;
+    margin: 4vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.5);
+    border-radius: 4vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.BMI_CAL{
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.calculator {
+    text-align: center;
+    
+}
+
+.calculator h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #008299;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+.bmi-category {
+    font-weight: bold;
+    
+}
+.para{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10%;
+}
+/* Add this CSS to your existing styles.css file */
+
+/* Style the placeholder text for input fields */
+
+/* Style the text entered into input fields */
+form input[type="number"] {
+    text-align: center; /* Center the text */
+    font-family: 'Montserrat', sans-serif; /* Change the font-family to your preference */
+    font-size: 16px; /* Change the font size to your preference */
+    font-weight: bold; /* Change the font weight to your preference */
+    color: #008299;
+}
+
+.calculate_btn{
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Reset some default styles for consistency */
